@@ -24,4 +24,4 @@ async function generatePDF() {
   console.log('PDF generated successfully!');
 }
 
-generatePDF().catch(console.error);
+generatePDF()
