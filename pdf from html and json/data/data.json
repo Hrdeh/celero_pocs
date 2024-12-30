@@ -1,0 +1,26 @@
+{
+    "title": "Sample PDF",
+    "content": "This is a sample PDF generated using Puppeteer and Handlebars.",
+    "Deposits": [
+      {
+        "Day": "01/01",
+        "Ref No.": "123456",
+        "Items": 80,
+        "Sales": "$1,000.00",
+        "Credits": "$0.00",
+        "Disc": "$0.00",
+        "Net Deposit": "$1,000.00"
+      }
+    ],
+    "Settlement/Discount": [
+      {
+        "Description": "AMEX",
+        "Items": 36,
+        "Amount": "$2109.72",
+        "Avg Tickets": "$58.60",
+        "Disc Rate": 3.2500,
+        "Item Rate": 0.0000,
+        "Fee Amount": 68.56
+      }
+    ]
+  }
