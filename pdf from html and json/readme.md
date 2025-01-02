@@ -21,8 +21,9 @@ Use of the fs-extra library would be substituted by Azure Function Bindings or r
 
 ### Puppeteer
 
-Puppeteer is a Node library that provides a high-level API to control Chrome or Chromium over the DevTools Protocol. It is used for various purposes, including web scraping, automated testing, and generating PDFs from HTML content. Puppeteer was chosen for this application because:
+Puppeteer appears to be the most popular library for PDF generation in the Javascript world. It has had and still has great support from the community.  It is used for various purposes, including web scraping, automated testing, and generating PDFs from HTML content. Puppeteer was chosen for this application because:
 
+- **Popularity and Support**: Puppeteer has 2-5 million weekly downloads and has been continuously supported by the community.
 - **Rendering Accuracy**: Puppeteer uses a real browser to render the HTML, ensuring that the generated PDF looks exactly like it would in a browser.
 - **Flexibility**: Puppeteer provides extensive control over the rendering process, allowing for customization of the PDF output.
 - **Ease of Use**: Puppeteer has a straightforward API that makes it easy to set up and use for generating PDFs.
@@ -33,5 +34,5 @@ Handlebars is a popular templating engine that allows for dynamic content genera
 
 - **Simplicity**: Handlebars provides a simple and intuitive syntax for defining templates and inserting data.
 - **Separation of Concerns**: Handlebars allows for a clear separation between the HTML structure (template) and the data, making the code more maintainable.
-- **Flexibility**: Handlebars supports various features like loops and conditionals, making it suitable for generating complex HTML content.
+- **Flexibility**: Handlebars supports various features like loops and conditionals, making them suitable for generating complex HTML content like creating tables for deposits, chargebacks, and other statement data. 
 
